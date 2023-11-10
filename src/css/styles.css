@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(255,0,0);
+    background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,18,190, 1) 99%);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.mensagem {
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: fixed;
+    left: 10vw;
+    color: white;
+}
+.titulo {
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-weight: 900;
+    font-size: 25px;
+}
+.descricao {
+    font-size: 20px;
+    line-height: 22px;
+}
+.cadastro {
+    background-color: white;
+    width: 40vw;
+    position: fixed;
+    right: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    top: 5vh;
+    line-height: 65px;
+}
+ul {
+    position: absolute;
+    top: 20px;
+}
+input {
+    width: 35vw;
+    height: 7vh;
+    border-radius: 10px;
+}
+h4 {
+    position: absolute;
+    left: 30px;
+    margin-top: 25px;
+    bottom: 15vh;
+}
+#botao {
+    position: absolute;
+    bottom: 30px;
+    width: 35vw;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(69, 180, 69);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.botao:hover {
+    box-shadow: 0 0 12px rgba(0,0,0,0.7);
+}
+.vermelha {
+    border-color: red;
+}
+.campos {
+display: flex;
+flex-direction: column;
+margin: 20px;
+}
+.obrigatorio {
+    color: red;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 5px;
+    margin-bottom: -15px;
+    display: none;
+}
+.obrigatorio.ativo {
+    display: block;
+}
+.verde {
+ border-color: rgb(36, 252, 36);
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+      </style>
+      <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section class="mensagem">
+            <div>
+                <h1 class="titulo">FICOU COM DÚVIDA ? <br> NOS MANDE UMA MENSAGEM!
+                </h1>
+                <p class="descricao">caso tenha ficado com qualquer dúvida basta nos enviar uma mensagem e entraremos em contato em menos de 24 horas.</p>
+            </div>
+        </section>
+
+        <section class="cadastro">
+            <ul>
+                <li class="campos">
+                    <input class="inputs" id="nome" type="text" placeholder="*Nome Completo">
+                    <label for="nome" class="obrigatorio">Campo Obrigatório</label>
+                </li>
+                <li class="campos">
+                    <input class="inputs" id="email" type="text" placeholder="*Email">
+                    <label for="email" class="obrigatorio">Campo Obrigatório</label>
+                </li>
+                <li class="campos">
+                    <input class="inputs" id="telefone" type="text" placeholder="*Telefone">
+                    <label for="telefone" class="obrigatorio">Campo Obrigatório</label>
+                </li>
+                <li class="campos">
+                    <input class="inputs" id="mensagem" type="text" placeholder="*Mensagem" style="height: 25vh;">
+                    <label for="mensagem" class="obrigatorio">Campo Obrigatório</label>
+                </li>
+            </ul>
+            <h4>*Campos Obrigatórios</h4>
+            <input id="botao" type="submit">
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
